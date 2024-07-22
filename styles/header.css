@@ -1,0 +1,84 @@
+.header {
+    font-family: 'Izayoi Monospaced', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 1;
+}
+
+.header-left-section {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hakurei-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hakurei-icon {
+    width: 20px;
+}
+
+.hakurei-name {
+    font-family: Roboto;  
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.audio-icon {
+    width: 20px;
+}
+
+.sources-button {
+    background-color: rgb(201, 69, 69);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 2px 4px;
+}
+
+.header-right-section {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-right-section a {
+    font-size: 12px;
+    cursor: pointer;
+    transition: text-shadow 0.40s;
+    text-decoration: none;
+    color: white;
+}
+
+.header-right-section a:hover {
+    text-shadow: 0 0 5px rgb(59, 210, 230), 0 0 12px rgb(59, 210, 230), 0 0 20px rgb(59, 210, 230);
+}
+
+.header-right-section img {
+    width: 20px;
+    filter: hue-rotate(140deg);
+}
